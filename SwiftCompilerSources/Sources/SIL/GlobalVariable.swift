@@ -12,6 +12,7 @@
 
 import Basic
 import SILBridging
+import std
 
 final public class GlobalVariable : CustomStringConvertible, HasName {
   public var name: String {

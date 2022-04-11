@@ -12,6 +12,7 @@
 
 import Basic
 import SILBridging
+import std
 
 //===----------------------------------------------------------------------===//
 //                       Instruction base classes

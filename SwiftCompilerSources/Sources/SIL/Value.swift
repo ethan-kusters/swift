@@ -12,6 +12,7 @@
 
 import Basic
 import SILBridging
+import std
 
 public protocol Value : AnyObject, CustomStringConvertible {
   var uses: UseList { get }

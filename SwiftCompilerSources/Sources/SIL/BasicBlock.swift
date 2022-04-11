@@ -12,6 +12,7 @@
 
 import Basic
 import SILBridging
+import std
 
 final public class BasicBlock : ListNode, CustomStringConvertible, HasName {
   public var next: BasicBlock? { SILBasicBlock_next(bridged).block }

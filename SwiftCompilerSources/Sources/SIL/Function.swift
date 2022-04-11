@@ -12,6 +12,7 @@
 
 import Basic
 import SILBridging
+import std
 
 final public class Function : CustomStringConvertible, HasName {
   public private(set) var effects = FunctionEffects()
